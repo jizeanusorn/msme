@@ -252,24 +252,25 @@
     font-size:.58rem;color:#7a7f8a;margin-bottom:0;line-height:1.6;
   }
   .login-divider{
-    border:none;border-top:1px solid #eaecef;margin:20px 0;
+    border:none;border-top:1px solid #eaecef;margin:20px auto;max-width:300px;
   }
   .login-field{
-    width:100%;padding:13px 16px;
-    border:1px solid #d4d7dd;border-radius:10px;
-    font-family:'Noto Sans Thai',sans-serif;font-size:.93rem;
+    width:100%;padding:10px 14px;
+    border:1px solid #d4d7dd;border-radius:9px;
+    font-family:'Noto Sans Thai',sans-serif;font-size:.86rem;
     color:#1d2025;background:#f9f9fb;
     margin-bottom:0;outline:none;
     box-sizing:border-box;
     transition:border-color .18s, box-shadow .18s;
   }
   .login-field:focus{border-color:#a8884e;background:#fff;box-shadow:0 0 0 3px rgba(168,136,78,.12)}
-  .login-fields{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+  .login-fields{display:flex;flex-direction:column;gap:10px;margin:0 auto 18px;max-width:300px}
   .login-btn{
-    width:100%;padding:14px;
+    width:100%;max-width:300px;padding:11px;
+    display:block;margin:0 auto;
     background:linear-gradient(135deg,#b8965a,#a8884e);
-    color:#fff;border:none;border-radius:10px;
-    font-family:'Noto Sans Thai',sans-serif;font-size:.97rem;font-weight:700;
+    color:#fff;border:none;border-radius:9px;
+    font-family:'Noto Sans Thai',sans-serif;font-size:.9rem;font-weight:700;
     cursor:pointer;letter-spacing:.01em;
     box-shadow:0 2px 10px rgba(168,136,78,.25);
     transition:opacity .18s, transform .12s;
@@ -289,10 +290,10 @@
     .login-logo img{width:min(110px,28vw)}
     .login-title{font-size:.85rem;letter-spacing:-.01em;margin-bottom:6px}
     .login-sub{font-size:.5rem}
-    .login-divider{margin:16px 0}
-    .login-fields{gap:10px;margin-bottom:16px}
-    .login-field{padding:12px 14px;font-size:.88rem}
-    .login-btn{padding:13px;font-size:.92rem}
+    .login-divider{margin:16px auto;max-width:none}
+    .login-fields{gap:10px;margin-bottom:16px;max-width:none}
+    .login-field{padding:11px 14px;font-size:.86rem}
+    .login-btn{padding:12px;font-size:.9rem;max-width:none}
   }
 
 </style>
